@@ -10,7 +10,7 @@ import java.util.List;
 @Setter
 @Builder
 public class Graph {
-    public List<Node> buscaEmProfundidade(Node inicial, Node objetivo) {
+    public List<Node> buscaEmRetrocesso(Node inicial, Node objetivo) {
         List<Node> LE = new ArrayList<>();
         LE.add(inicial);
 

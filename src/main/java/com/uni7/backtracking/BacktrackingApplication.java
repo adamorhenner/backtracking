@@ -53,7 +53,7 @@ public class BacktrackingApplication {
 
 		Graph grafo = new Graph();
 
-		List<Node> path = grafo.buscaEmProfundidade(a,d);
+		List<Node> path = grafo.buscaEmRetrocesso(a,d);
 
 		if (path == null) {
 			System.out.println("Não foi encontrado caminho.");
